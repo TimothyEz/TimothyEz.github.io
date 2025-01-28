@@ -1,3 +1,9 @@
 theme: jekyll-theme-slate
 title: Tim's homepage for Stats information
 description: Bookmark this to keep an eye on my project updates!
+
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+gem "github-pages", group: :jekyll_plugins # Optionally, if you'd like to preview your site on your computer, add the following to your site's Gemfile:
