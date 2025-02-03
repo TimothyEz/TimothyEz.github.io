@@ -8,4 +8,4 @@ plugins:
 gem "github-pages", group: :jekyll_plugins # Optionally, if you'd like to preview your site on your computer, add the following to your site's Gemfile:
 
 show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+google_analytics: G-ZDLT4GP1SS # Google tracking ID
