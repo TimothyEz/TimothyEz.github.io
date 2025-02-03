@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Home"
+---
+
+<h1>Welcome to My Website</h1>
+<p>This is my personal space where I share research, blogs, and updates.</p>
+
+<h2>Recent Blog Posts</h2>
+<ul>
+    {% for post in site.posts limit:5 %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+        </li>
+    {% endfor %}
+</ul>
+
+<p><a href="{{ site.baseurl }}/blog.html">See all blog posts</a></p>
