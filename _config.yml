@@ -7,5 +7,7 @@ plugins:
 
 gem "github-pages", group: :jekyll_plugins # Optionally, if you'd like to preview your site on your computer, add the following to your site's Gemfile:
 
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# Enables a "Download ZIP" button on the site (set to true if you want visitors to download your repository)
+show_downloads: false # enable if you have  files that visitors might want to download, or You’re offering datasets, scripts, or templates.
+
 google_analytics: G-ZDLT4GP1SS # Google tracking ID
